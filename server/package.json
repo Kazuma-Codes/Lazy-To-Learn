@@ -1,0 +1,18 @@
+{
+  "name": "new-mern-stack-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "dev:memory": "node --watch src/memory.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "mongoose": "^9.12.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0"
+  }
+}
